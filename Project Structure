@@ -1,0 +1,11 @@
+MentalHealthDetection/
+│── data/                      # Dataset storage
+│── models/                    # Trained ML models
+│── src/                        # Source code
+│   │── preprocess.py           # Text Preprocessing (NLTK)
+│   │── train_model.py          # Train LSTM-based model
+│   │── predict.py              # Predict disorder from new text
+│   │── evaluate.py             # Model evaluation and metrics
+│   │── web_app.py              # Flask API for live predictions
+│── requirements.txt            # Dependencies
+│── README.md                   # Documentation
